@@ -1,2 +1,5 @@
 language: java
-mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
+#install dependencies
+install:
+  - mvn install -Dskip.unit.tests=true -Dskip.integration.tests=true  -DskipITs
