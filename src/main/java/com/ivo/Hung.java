@@ -20,7 +20,6 @@ int rows = 10;
 double[][] myArray = {{108,125,150},{150,135,175},{122,148,250}};
 
         
-        
         runHung(myArray);
         
         
