@@ -21,7 +21,6 @@ double[][] myArray = {{108,125,150},{150,135,175},{122,148,250}};
 
         
         runHung(myArray);
-        
     }
 
     public static int[] runHung(double[][] arr){
